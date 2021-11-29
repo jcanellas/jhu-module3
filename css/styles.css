@@ -1,24 +1,23 @@
 body {
   font-size: 16px;
-  color: #fff;
+  color: black;
   background-color: #b4d3fc;
   font-family: 'Oxygen', sans-serif;
 }
+li {
+  text-align: center;
+  color:aqua}
+
 #header-nav{
   background-color: #4d94ff;
   border-radius: 0;
   border: 0;
-}
-.companyName{
-  margin: 0em;
-  color: yellowgreen;
 }
 .navbar-brand h1 {
   font-family: Helvetica, serif;
   color: blue;
   font-size: 1.5em;
   vertical-align: middle;
-  text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
   margin-top: 0;
@@ -36,4 +35,45 @@ body {
 }
 .container {
   margin-left: 0;
+}
+
+#menuDescr {
+  width: 90%;
+  margin-left: 5%;
+  scroll-margin-right: 5%;
+}
+.navbar-default .navbar-toggle {
+  border-color: black;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: wheat;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: black;
+}
+
+.navbar-nav>li>a {
+  color: aqua;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: white;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+  color: black;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
 }

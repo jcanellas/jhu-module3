@@ -1,31 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Assignment Solution for Module 3</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/styles.css">
-  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
-</head>
-<body>
-  <header>
-    <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <div class="navbar-brand">
-            <a href="index.html" ><h1>Food, LLDac</h1></a>
-        </div>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <h1>Hello World</h1>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Assignment Solution for Module 3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <div class="navbar-brand">
+              <a href="index.html"><h1>Food, LLDac</h1></a>
+            </div> <!-- .navbar-brand -->
+            
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div> <!-- .navbar-header -->
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
-</body>
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+             <li>
+               <a href="#menuBeef" class="">
+                 <span class=""></span><br class="hidden-xs"> Beef</a>
+             </li>
+             <li>
+               <a href="#menuChicken" class="">
+                 <span class=""></span><br class="hidden-xs"> Chicken</a>
+             </li>
+             <li>
+               <a href="#menuSushi" class="">
+                 <span class=""></span><br class="hidden-xs"> Sushi</a>
+             </li>
+           </ul><!-- #nav-list -->
+         </div><!-- .collapse .navbar-collapse -->
+
+        </div> <!-- .container -->
+      </nav>
+    </header>
+    <div id="menuDescr">
+      <div>
+        <h2 id="menuBeef">Beef</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+          rhoncus pellentesque tempus. Praesent blandit mauris arcu, a malesuada
+          diam pharetra ac. Curabitur eleifend ante ac viverra bibendum. Nam
+          tellus nunc, tempus a lacus ac, commodo dapibus turpis. Sed a nibh vel
+          eros auctor accumsan. Cras id vulputate leo. Maecenas neque metus,
+          sagittis eget augue vitae, euismod mollis diam. Sed ultrices elementum
+          eleifend. Vivamus iaculis, justo id iaculis cursus, urna felis
+          ultricies lorem, a egestas leo orci sed risus. Nunc sodales urna at ex
+          pulvinar, at interdum massa convallis. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Integer ultricies vitae ligula ut
+          convallis. Cras non volutpat lorem, eget porta mauris. Sed pharetra
+          justo quis ante hendrerit, cursus volutpat eros tincidunt. Mauris
+          dignissim sapien quis efficitur iaculis. Integer suscipit libero
+          tristique, vulputate nibh sed, venenatis odio. Suspendisse et orci nec
+          orci interdum imperdiet. Aliquam condimentum gravida tincidunt. In est
+          risus, feugiat quis finibus id, rutrum vitae quam. Proin fringilla
+          lorem ante, sodales dignissim lectus suscipit at. Maecenas consequat
+          eros et risus pulvinar, at interdum purus dictum. Donec eleifend
+          blandit sem vitae luctus. Integer vehicula lectus non rhoncus
+          condimentum. Curabitur eu sem sollicitudin, blandit libero a, porta
+          elit. Nulla maximus leo in ullamcorper semper. Nullam in blandit ex.
+          Quisque vehicula tempor ex, sed gravida justo. Nulla consectetur
+          semper vehicula. Fusce pellentesque leo a eros tempus varius. Praesent
+          cursus purus et laoreet pulvinar. Maecenas ut dui diam. Nulla sit amet
+          vehicula turpis. Vestibulum aliquet dolor augue, vitae iaculis velit
+          bibendum quis. Etiam consectetur volutpat elit, ut suscipit mi rutrum
+          a. Aliquam feugiat ligula eros, quis efficitur tellus tristique sed.
+          Proin pellentesque, risus et egestas vestibulum, erat metus tincidunt
+          velit, sed ultrices est neque vel augue. Fusce ut lobortis dui. Donec
+          interdum magna ut ligula commodo, id facilisis lorem lobortis. Nulla
+          lacus nulla, commodo laoreet mi ut, ornare pharetra orci. Suspendisse
+          potenti. Donec scelerisque nisi ut tellus bibendum, a rutrum neque
+          iaculis. Donec ac tempor mi. Nunc libero tortor, tempor eget imperdiet
+          id, iaculis et nulla. Vestibulum at ultrices massa, non placerat
+          risus. Ut aliquet sem a eleifend dictum. Quisque eu interdum est.
+          Quisque sodales, mi non mollis commodo, lectus leo ultrices odio, a
+          elementum nibh nunc sit amet ex. Vestibulum erat nisi, tristique eu
+          malesuada ut, gravida at erat. Aliquam tempus vehicula felis feugiat
+          tempus. In dignissim nisi sed ultricies iaculis.
+          <a href="#">Back To Top</a> 
+        </p>
+      </div>
+      <div>
+        <h2 id="menuChicken" >Chicken</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+          rhoncus pellentesque tempus. Praesent blandit mauris arcu, a malesuada
+          diam pharetra ac. Curabitur eleifend ante ac viverra bibendum. Nam
+          tellus nunc, tempus a lacus ac, commodo dapibus turpis. Sed a nibh vel
+          eros auctor accumsan. Cras id vulputate leo. Maecenas neque metus,
+          sagittis eget augue vitae, euismod mollis diam. Sed ultrices elementum
+          eleifend. Vivamus iaculis, justo id iaculis cursus, urna felis
+          ultricies lorem, a egestas leo orci sed risus. Nunc sodales urna at ex
+          pulvinar, at interdum massa convallis. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Integer ultricies vitae ligula ut
+          convallis. Cras non volutpat lorem, eget porta mauris. Sed pharetra
+          justo quis ante hendrerit, cursus volutpat eros tincidunt. Mauris
+          dignissim sapien quis efficitur iaculis. Integer suscipit libero
+          tristique, vulputate nibh sed, venenatis odio. Suspendisse et orci nec
+          orci interdum imperdiet. Aliquam condimentum gravida tincidunt. In est
+          risus, feugiat quis finibus id, rutrum vitae quam. Proin fringilla
+          lorem ante, sodales dignissim lectus suscipit at. Maecenas consequat
+          eros et risus pulvinar, at interdum purus dictum. Donec eleifend
+          blandit sem vitae luctus. Integer vehicula lectus non rhoncus
+          condimentum. Curabitur eu sem sollicitudin, blandit libero a, porta
+          elit. Nulla maximus leo in ullamcorper semper. Nullam in blandit ex.
+          Quisque vehicula tempor ex, sed gravida justo. Nulla consectetur
+          semper vehicula. Fusce pellentesque leo a eros tempus varius. Praesent
+          cursus purus et laoreet pulvinar. Maecenas ut dui diam. Nulla sit amet
+          vehicula turpis. Vestibulum aliquet dolor augue, vitae iaculis velit
+          bibendum quis. Etiam consectetur volutpat elit, ut suscipit mi rutrum
+          a. Aliquam feugiat ligula eros, quis efficitur tellus tristique sed.
+          Proin pellentesque, risus et egestas vestibulum, erat metus tincidunt
+          velit, sed ultrices est neque vel augue. Fusce ut lobortis dui. Donec
+          interdum magna ut ligula commodo, id facilisis lorem lobortis. Nulla
+          lacus nulla, commodo laoreet mi ut, ornare pharetra orci. Suspendisse
+          potenti. Donec scelerisque nisi ut tellus bibendum, a rutrum neque
+          iaculis. Donec ac tempor mi. Nunc libero tortor, tempor eget imperdiet
+          id, iaculis et nulla. Vestibulum at ultrices massa, non placerat
+          risus. Ut aliquet sem a eleifend dictum. Quisque eu interdum est.
+          Quisque sodales, mi non mollis commodo, lectus leo ultrices odio, a
+          elementum nibh nunc sit amet ex. Vestibulum erat nisi, tristique eu
+          malesuada ut, gravida at erat. Aliquam tempus vehicula felis feugiat
+          tempus. In dignissim nisi sed ultricies iaculis.
+        <a href="#">Back To Top</a>
+        </p>
+      </div>
+      <div>
+        <h2 id="menuSushi">Sushi</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+          rhoncus pellentesque tempus. Praesent blandit mauris arcu, a malesuada
+          diam pharetra ac. Curabitur eleifend ante ac viverra bibendum. Nam
+          tellus nunc, tempus a lacus ac, commodo dapibus turpis. Sed a nibh vel
+          eros auctor accumsan. Cras id vulputate leo. Maecenas neque metus,
+          sagittis eget augue vitae, euismod mollis diam. Sed ultrices elementum
+          eleifend. Vivamus iaculis, justo id iaculis cursus, urna felis
+          ultricies lorem, a egestas leo orci sed risus. Nunc sodales urna at ex
+          pulvinar, at interdum massa convallis. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Integer ultricies vitae ligula ut
+          convallis. Cras non volutpat lorem, eget porta mauris. Sed pharetra
+          justo quis ante hendrerit, cursus volutpat eros tincidunt. Mauris
+          dignissim sapien quis efficitur iaculis. Integer suscipit libero
+          tristique, vulputate nibh sed, venenatis odio. Suspendisse et orci nec
+          orci interdum imperdiet. Aliquam condimentum gravida tincidunt. In est
+          risus, feugiat quis finibus id, rutrum vitae quam. Proin fringilla
+          lorem ante, sodales dignissim lectus suscipit at. Maecenas consequat
+          eros et risus pulvinar, at interdum purus dictum. Donec eleifend
+          blandit sem vitae luctus. Integer vehicula lectus non rhoncus
+          condimentum. Curabitur eu sem sollicitudin, blandit libero a, porta
+          elit. Nulla maximus leo in ullamcorper semper. Nullam in blandit ex.
+          Quisque vehicula tempor ex, sed gravida justo. Nulla consectetur
+          semper vehicula. Fusce pellentesque leo a eros tempus varius. Praesent
+          cursus purus et laoreet pulvinar. Maecenas ut dui diam. Nulla sit amet
+          vehicula turpis. Vestibulum aliquet dolor augue, vitae iaculis velit
+          bibendum quis. Etiam consectetur volutpat elit, ut suscipit mi rutrum
+          a. Aliquam feugiat ligula eros, quis efficitur tellus tristique sed.
+          Proin pellentesque, risus et egestas vestibulum, erat metus tincidunt
+          velit, sed ultrices est neque vel augue. Fusce ut lobortis dui. Donec
+          interdum magna ut ligula commodo, id facilisis lorem lobortis. Nulla
+          lacus nulla, commodo laoreet mi ut, ornare pharetra orci. Suspendisse
+          potenti. Donec scelerisque nisi ut tellus bibendum, a rutrum neque
+          iaculis. Donec ac tempor mi. Nunc libero tortor, tempor eget imperdiet
+          id, iaculis et nulla. Vestibulum at ultrices massa, non placerat
+          risus. Ut aliquet sem a eleifend dictum. Quisque eu interdum est.
+          Quisque sodales, mi non mollis commodo, lectus leo ultrices odio, a
+          elementum nibh nunc sit amet ex. Vestibulum erat nisi, tristique eu
+          malesuada ut, gravida at erat. Aliquam tempus vehicula felis feugiat
+          tempus. In dignissim nisi sed ultricies iaculis.
+          <a href="#">Back To Top</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
