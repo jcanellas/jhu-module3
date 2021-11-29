@@ -13,7 +13,6 @@ button {
   margin-right: auto;
   height: 80px;
 }
-
 #header-nav{
   background-color: #4d94ff;
   border-radius: 0;
@@ -51,16 +50,20 @@ button {
   color: aliceblue; 
   font-weight: bold;
 }
-#nav-list {
-  margin-top: 10px;
-}
+
 #nav-list a {
   color: white;
   background-color: #6e8bb6;
+  font-size: 0.75em;
+  vertical-align: middle;
+  height: 35px;
 }
 #nav-list a:hover {
   background: #E7E7E7;
   color: black;
+  vertical-align: middle;
+  font-size: 0.75em;
+  height: 35px;
 }
 #nav-list a span {
   font-size: 1.8em;
