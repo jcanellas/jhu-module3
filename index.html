@@ -1,60 +1,53 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Assignment Solution for Module 3</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
-  <body>
-    <header>
-      <nav id="header-nav" class="navbar navbar-default">
-        <div class="container">
-          <div class="navbar-header">
-            <div class="navbar-brand">
-              <a href="index.html"><h1>Food, LLC</h1></a>
-            </div> <!-- .navbar-brand -->
-            
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div> <!-- .navbar-header -->
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Food, LLC</h1></a>
+          </div>
 
-          <div id="collapsable-nav" class="collapse navbar-collapse">
-            <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs text-center">
-             <li>
-               <a href="#menuBeef" class="">
-                 <span></span><br class="hidden-xs"> Beef</a>
-             </li>
-             <li>
-               <a href="#menuChicken" class="">
-                 <span></span><br class="hidden-xs"> Chicken</a>
-             </li>
-             <li>
-               <a href="#menuSushi" class="">
-                 <span></span><br class="hidden-xs"> Sushi</a>
-             </li>
-           </ul><!-- #nav-list -->
-         </div><!-- .collapse .navbar-collapse -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
 
-        </div> <!-- .container -->
-      </nav>
-    </header>
-    <div class="menuDescr"><h1 id="menuTitle" class="text-center">Our Menu</h1></div>
-    <div class="menuDescr jumbotron">
-      <div id="beefItem">
-        <h2 id="menuBeef" class="text-center">Beef</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right text-center visible-xs">
+            <li>
+              <a href="#menuBeef"><br class="hidden-xs">Beef</a>
+            </li>
+            <li>
+              <a href="#menuChicken"><br class="hidden-xs">Chicken</a>
+            </li>
+            <li>
+              <a href="#menuSushi"><br class="hidden-xs">Sushi</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="main-content" class="container">
+    <div><h2 id="ourMenu" class="text-center">Our Menu</h2></div>
+    <div class="jumbotron">
+      <div id="beefItem" class="menuItem">
+        <h3 id="menuBeef" class="text-center">Beef</h3>
+        <p class="menuItem menuItem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
           rhoncus pellentesque tempus. Praesent blandit mauris arcu, a malesuada
           diam pharetra ac. Curabitur eleifend ante ac viverra bibendum. Nam
           tellus nunc, tempus a lacus ac, commodo dapibus turpis. Sed a nibh vel
@@ -93,12 +86,12 @@
           elementum nibh nunc sit amet ex. Vestibulum erat nisi, tristique eu
           malesuada ut, gravida at erat. Aliquam tempus vehicula felis feugiat
           tempus. In dignissim nisi sed ultricies iaculis.
-          <a href="#">Back To Top</a> 
+          <a href="#"><br>Back To Top</a> 
         </p>
       </div>
-      <div id="chickenItem">
+      <div id="chickenItem" class="menuItem">
         <h2 id="menuChicken" class="text-center">Chicken</h2>
-        <p>
+        <p class="menuItem">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
           rhoncus pellentesque tempus. Praesent blandit mauris arcu, a malesuada
           diam pharetra ac. Curabitur eleifend ante ac viverra bibendum. Nam
@@ -138,12 +131,12 @@
           elementum nibh nunc sit amet ex. Vestibulum erat nisi, tristique eu
           malesuada ut, gravida at erat. Aliquam tempus vehicula felis feugiat
           tempus. In dignissim nisi sed ultricies iaculis.
-        <a href="#">Back To Top</a>
+        <a href="#"><br>Back To Top</a>
         </p>
       </div>
-      <div id="sushiItem">
+      <div id="sushiItem" class="menuItem">
         <h2 id="menuSushi" class="text-center">Sushi</h2>
-        <p>
+        <p class="menuItem">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
           rhoncus pellentesque tempus. Praesent blandit mauris arcu, a malesuada
           diam pharetra ac. Curabitur eleifend ante ac viverra bibendum. Nam
@@ -183,14 +176,15 @@
           elementum nibh nunc sit amet ex. Vestibulum erat nisi, tristique eu
           malesuada ut, gravida at erat. Aliquam tempus vehicula felis feugiat
           tempus. In dignissim nisi sed ultricies iaculis.
-          <a href="#">Back To Top</a>
+          <a href="#"><br>Back To Top</a>
         </p>
       </div>
     </div>
+  </div>
 
-    <!-- jQuery (Bootstrap JS plugins depend on it) -->
-    <script src="js/jquery-2.1.4.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
-  </body>
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
 </html>
